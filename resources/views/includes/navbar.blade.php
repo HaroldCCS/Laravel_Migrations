@@ -1,0 +1,45 @@
+<div class="col col-12 order-1">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Movie Rental</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('rentals')}}">Rentals</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('statuses')}}">Statuses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('roles')}}">Roles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('users')}}">Users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('movies')}}">Movies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('categories')}}">Categories</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('category_movie')}}">Category Movies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('movie_rental')}}">Movie Rental</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('typestatuses')}}">Type statuses</a>
+      </li>
+      
+    </ul>
+    
+  </div>
+</nav>
+</div>
